@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basketball Scoreboard</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="court">
+    <h1 class="title">🏀 Basketball Scoreboard</h1>
+
+    <div class="container">
+        <div class="team-card">
+            <h3>HOME</h3>
+            <h1 id="home-score">0</h1>
+            <div>
+                <button class="score-btn" data-team="home" data-points="1">+1</button>
+                <button class="score-btn" data-team="home" data-points="2">+2</button>
+                <button class="score-btn" data-team="home" data-points="3">+3</button>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <h3>GUEST</h3>
+            <h1 id="guest-score">0</h1>
+            <div>
+                <button class="score-btn" data-team="guest" data-points="1">+1</button>
+                <button class="score-btn" data-team="guest" data-points="2">+2</button>
+                <button class="score-btn" data-team="guest" data-points="3">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="round-container">
+        <button id="btn-round">🔄 New Round</button>
+        <button id="save-btn">💾 Save Result</button>
+        <div id="winner"></div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
