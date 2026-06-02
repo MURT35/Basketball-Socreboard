@@ -3,6 +3,8 @@
 ## Project Idea
 A simple basketball scoreboard built with HTML, CSS, and JavaScript.
 
+## Live Link
+basketball-socreboardd.netlify.app
 Users can:
 - Add 1, 2, or 3 points to Home or Guest teams.
 - Start a new round and reset scores.
